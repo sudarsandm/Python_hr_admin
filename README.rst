@@ -11,8 +11,31 @@ Preparing for Development
 3. Fetch development dependencies: ``make install``
 
 Usage
------
+=====
 
+Pass in the employee inventory file in json format
+
+::
+
+    $ hr path/to/inventory.json
+
+Pass in along with option ``--export`` and the file in json format
+
+::
+
+    $ hr --export path/to/inventory.json
 
 Running Tests
 -------------
+
+Run tests locally using make if virtualenv is present
+
+::
+
+    $ make
+
+Run tests using pipenv if virtualenv is not present
+
+::
+
+    $ pipenv run make
