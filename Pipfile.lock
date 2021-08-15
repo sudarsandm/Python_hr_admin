@@ -58,7 +58,7 @@
                 "sha256:8cca5c229d225f8c1e3085be4fcf306090b00850fefad892f9d96c7b6e2f310f",
                 "sha256:ca18943e28235417756316bfada6cd96b23ce60dd532642690dcfdaba988a76d"
             ],
-            "version": "==1.5.2"
+            "version": "==1.10.0"
         },
         "pytest": {
             "hashes": [
